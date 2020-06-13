@@ -1,0 +1,22 @@
+<html>
+    <body>
+        
+        <button id="colorChange">Change Color</button>
+        <script>
+            // grab the button 
+            let button = document.querySelector("button")
+            let body = document.querySelector("body")
+            // add event listener
+            button.addEventListener("click", function() {
+                if (body.style.backgroundColor === "purple") {
+                    body.style.backgroundColor = "white"
+                } else {
+                    body.style.backgroundColor = "purple"
+                }             
+            })
+            // function that changes the background color
+
+
+            </script>
+    </body>
+</html>
